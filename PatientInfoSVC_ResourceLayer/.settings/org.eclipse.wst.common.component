@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="PatientInfoSVC_ResourceLayer-1.0-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="PatientInfoSVC_ProcessLayer-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/PatientInfoSVC_ProcessLayer/PatientInfoSVC_ProcessLayer">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PatientInfoSVC_IntgLayer-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/PatientInfoSVC_IntgLayer/PatientInfoSVC_IntgLayer">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="PatientInfoSVC_ResourceLayer"/>
+        <property name="java-output-path" value="/PatientInfoSVC_ResourceLayer/target/classes"/>
+    </wb-module>
+</project-modules>
